@@ -1,0 +1,34 @@
+body
+{
+    background-size: cover;
+}
+.pingpongtitle{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    text-align: left;
+}
+.info{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+}
+.start, .status, .restart{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#canvas{
+    border: 5px black;
+    box-shadow: 7px 7px 7px grey;
+}
+#footer{
+    bottom: 0;
+    background-color: lightgrey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+canvas{
+    border: black 5px;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+}
